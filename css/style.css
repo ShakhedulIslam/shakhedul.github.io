@@ -10,7 +10,7 @@ font-family: 'Raleway', sans-serif;
 	width: 100%;
 	height: 100vh;
 	background-color: white;
-	background-image: url('https://i.pinimg.com/originals/1f/2d/f8/1f2df8fad7e9bfcb18d9d553f8fc259b.gif');
+	background-image: url('https://i.pinimg.com/originals/94/21/ed/9421ed266475536281dfa87c5f15ee57.gif');
 	background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
@@ -29,7 +29,7 @@ li{
 	list-style: none;
 }
 p{
-	font-size: 1rem;
+	font-size: 13px;
 	line-height: 1.6;
 	font-weight: 400;
 	color: black;
@@ -42,14 +42,12 @@ i{
 .header{
 	width: 100%;
 	height: 100vh;
-    background-image: linear-gradient(rgb(0 161 245 / 29%), rgb(0 0 0 / 61%)), url(../image/header.jpeg);	background-size: 100% 100%;
+    background-image:linear-gradient(rgb(0 161 245 / 87%), rgb(0 0 0 / 86%)), url("https://blog.stoneriverelearning.com/wp-content/uploads/2017/06/23054.jpg");	background-size: 100% 100%;
 	position: relative;
 	clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
-}
+}	
 
-.navbar-toggler{
-	color: black;
-}
+
 .header:before{
 	content: "";
 	position: absolute;
@@ -62,13 +60,23 @@ i{
 	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
 }
 
+
+
+
+
+
+
+
+.navbar-toggler{
+	color: black;
+}
+
 .navbar:before {
     content: "";
+ 	content: "";
     position: absolute;
-    background-image: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);    top: 20%;
-    bottom: 6%;
-    left: 0%;
-    right: 0%;
+    background-image: linear-gradient(to right, rgb(30, 87, 153) 0%, rgb(60, 205, 187) 0%, rgb(22, 201, 246) 100%);
+    inset: 20% 0% 7%;
     z-index: -1;
 }
 
@@ -104,17 +112,17 @@ i{
 }
 
 .header-buttons a {
-    border: 1px solid snow;
-    border-radius: 40px;
+        border: 1px solid #ffffff;
+    border-radius: 25px;
     margin: 0px 5px;
-    padding: 11px 21px;
+    padding: 7px 12px;
     outline: none;
     color: snow;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 900;
     line-height: 1.4;
     text-align: center;
-    transition: 0.3s;
+    transition: all 0.3s ease 0s;;
 }
 
 
@@ -149,8 +157,8 @@ i{
 	transition: 0.3s;
 }
 .extra-div h2, .servicediv h2{
-	font-size:28px;
-	margin: 20px 0 15px 0;
+	font-size: 20px;
+	margin: 18px 0 15px 0;
 	font-weight: bold;
 	line-height: 1.1;
 	word-spacing: 4px;
@@ -189,7 +197,9 @@ i{
 
 .service-icons {
 	position: relative;
-    top: 27px;
+    top: 26px;
+    right: 13px;
+    font-size: 15px;
 }
 .progress{
 	height: 0.6rem!important;
@@ -231,7 +241,7 @@ i{
 }
 
 .money{
-	font-size: 40px;
+	font-size: 2.0rem;
 	line-height: 1;
 	color: #606060;
 }
@@ -239,35 +249,35 @@ i{
 	transition: 0.4s ease;
 }
 .card-header{
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	background: #fff!important;
 	padding: 25px 9!important;
 }
 .card-body{
-	padding:30px 0px!important;
+	padding: 12px 0px!important;
 }
 .card-body li{
 	margin: 5px 0;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 1.4;
 	color: #606060;
 }
 .card-footer{
 	background: white!important;
-	padding: 25px 0px!important;	
+	padding: 21px 0px!important;
 }
 .card-footer a {
     border: 1px solid #50d1c0;
     border-radius: 40px;
     margin: 0px 5px;
-    padding: 11px 21px;
+    padding: 7px 14px;
     outline: none;
     color: #50d1c0;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 900;
-    line-height: 1.4;
+    /* line-height: 1.4; */
     text-align: center;
     transition: 0.3s;
 }
@@ -378,11 +388,11 @@ i{
 	position: relative;
 }
 .contact-us h2{
-		font-size: 30px;
-	font-weight: bold;
-	color: #000;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+		font-size: 27px;
+		font-weight: bold;
+		color: #000;
+		margin-bottom: 10px;
+		text-transform: uppercase;
 }
 .contact-us:before{
 	content:"";
@@ -397,15 +407,35 @@ i{
 
 .form-button button{
     border-radius: 100px;
-    margin: 0px 5px;
-    padding: 12px 35px;
+    margin: 0px 0px;
+    padding: 9px 28px;
     outline: none;
     color: transparent;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 900;
     line-height: 1.4;
     text-align: center;
+    text-transform: uppercase;
     background: transparent;
+    transition: 0.3s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 10px;
+    transition: 0.3s;	
 }
 form:hover .form-button button{
 	background: #fff;
@@ -417,7 +447,7 @@ form:hover .form-button button{
 
 ::placeholders{
 	font-size: 0.85rem;
-};
+}
 
 /************Contact Us End************/
 
@@ -428,7 +458,7 @@ form:hover .form-button button{
 	margin: 80px auto;
 }
 .newslatter h2{
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;
 }
 .news-input{
@@ -440,8 +470,8 @@ form:hover .form-button button{
 	color: #fff;
 	background: #5bc0de;
 	border-radius: 0% 100px 100px 0;
-	min-width: 120px;
-	min-height: 40px;
+	min-width: 80px;
+	min-height: 36px;
 }
 
 /**************newslater end***********/
@@ -465,7 +495,7 @@ form:hover .form-button button{
 
 }
 .footer-section li a{
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	line-height: 1.6;
 	font-weight: 400;
 	color: #fff;
@@ -475,19 +505,19 @@ form:hover .form-button button{
 .footer-section h3{
 	text-transform: uppercase;
 	color: #fff;
-	margin-bottom: 25px;
-	padding: 5px;
+	margin-bottom: 22px;
+	padding: 4px;
 	border-bottom: 2px solid #5bc0de;
-	font-size: 1.2rem!important;
+	font-size: 0.9rem!important;
 	font-weight: 600;
-	text-shadow: 0 2px 5px rgba(0,0,0,0.4)
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
 
 .link-icons a i{
 	background: transparent;
-    color: #ffffff;
-    margin: 2px;
-    transition: 0.3s;
+	color: #ffffff;
+	margin: 1px;
+	transition: 0.3s;
 }
 
 .link-icons a i:hover{
@@ -546,8 +576,30 @@ form:hover .form-button button{
 		font-weight: bold;
 		text-decoration: none;
 	}
+.newslatter-from{
+	margin-bottom: 4px;
+}
+.newslatter-sub{
+	background: #16c9f6;
+    color: white;
+    width: 100%;
+    border: 1px transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 3px;
+    transition: 0.3s;
+}
 
+.newslatter-from input:hover{
+	background-color: #bacace;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 
+}
+.newslatter-from button:hover{
+	background: #39a3bd;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
 /**************footer-section end***********/
 
 /************media queries***********/
@@ -555,8 +607,10 @@ form:hover .form-button button{
 	.nav-item a{
 		text-align: center!important;
 	}
-
-	.pricing, .happyClients, .contact-us, .extra-div, .servicediv{
+	.pricing{
+		width: 100%;
+	}
+	.cad .pricing, .happyClients, .contact-us, .extra-div, .servicediv{
 		height: auto;
 		margin-top: 50px;
 	}
@@ -585,4 +639,5 @@ form:hover .form-button button{
 	.card-div{
 	padding: 0 0 0 0;
 	}
+
 }

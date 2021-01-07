@@ -10,47 +10,39 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="navbar/style.css">
 	<title></title>
 </head>
 <body onload="myFuction()">
   <div id="loading">
     
-  </div>
+  </div> 
 
 <!-- ******************Start header******************* -->
 
+
+<!-- *******nav**** -->
+
 <div  class="header" id="topheader">
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top nav">
-	<div class="container text-uppercase p-2">
-		  <a class="navbar-brand font-weight-bold text-white" href="#">Shakhedul Islam</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-	
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active font-weight-bold text-white">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#serviceDiv">Service</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="#price">Price</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-
+   
+   <nav class="fixed-top container">
+  <div id="logo">
+    Logo
   </div>
-  </div>
+    <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#serviceDiv">Service</a>
+  <a href="#price">Price</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </nav>
+<!-- *******nav******** -->
+
+  
 
 <section class="container header-section " id="home">
 	<div class="center-div mt-5">
@@ -72,19 +64,19 @@
 <section class="header-extea-div mt-5 pt-5" id="page-2">
   <div class="container">
     <div class="row">
-      <div class="extra-div col-lg-4 col-md-3 col-12">
+      <div class="extra-div col-lg-4 col-md-4 col-12">
         <a href="#" title=""><i class="fa-2x fas fa-desktop"></i></a>
         <h2 class="text-uppercase">Easy to use</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
       </div>
 
-      <div class="extra-div col-lg-4 col-md-3 col-12">
+      <div class="extra-div col-lg-4 col-md-4 col-12">
         <a href="#" title=""><i class="fa-2x fas fa-code"></i></a>
         <h2 class="text-uppercase extra-div-text-h1">Awesome Design</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
       </div>
 
-      <div class="extra-div col-lg-4 col-md-3 col-12">
+      <div class="extra-div col-lg-4 col-md-4 col-12">
         <a href="#" title=""><i class="fa-2x fas fa-magic"></i></a>
         <h2 class="text-uppercase">Awesome customize</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
@@ -103,7 +95,7 @@
 
   <div class="container" >
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+      <div class="col-lg-6 col-md-5 col-12 offset-1 offset-lg-0 float-left">
         <div class="names my-4">
           <h1>HTML</h1>
           <div class="progress w-75">
@@ -150,7 +142,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6 col-md-12 col-12 servicediv">
+      <div class="col-lg-6 col-md-5 col-12 servicediv float-right">
       <div class="row">
         <div class="col-lg-2 col-2 service-icons"> 
           <i class="fa-2x fas fa-desktop"></i>
@@ -198,7 +190,7 @@
 
   <div class="container mt-5">
     <div class="row">
-      <div class="col-lg-4 col-12 card-div">
+      <div class="col-lg-4 col-md-4 col-12 card-div">
         <div class="card text-center">
           <div class="card-header">BASIC</div>
           <div class="card-body">
@@ -215,7 +207,7 @@
         </div>
       </div> 
 
-      <div class="col-lg-4 col-12 card-div">
+      <div class="col-lg-4 col-md-4 col-12 card-div">
         <div class="card text-center">
           <div class="card-header">STANDER</div>
           <div class="card-body">
@@ -232,7 +224,7 @@
         </div>
       </div> 
 
-      <div class="col-lg-4 col-12 card-div">
+      <div class="col-lg-4 col-md-4 col-12 card-div">
         <div class="card text-center">
           <div class="card-header">UNLIMITED</div>
           <div class="card-body">
@@ -274,7 +266,7 @@
   <div class="carousel-inner container  mt-5">
     <div class="carousel-item active">
       <div class="row">
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -285,7 +277,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -296,7 +288,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -311,7 +303,7 @@
 
     <div class="carousel-item">
            <div class="row">
-       <div class="col-lg-4  col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -322,7 +314,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -333,7 +325,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -348,7 +340,7 @@
 
     <div class="carousel-item">
           <div class="row">
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -359,7 +351,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -370,7 +362,7 @@
          </div>
        </div>
 
-       <div class="col-lg-4 col-12">
+       <div class="col-lg-4 col-md-4 col-12">
          <div class="box">
           <a href="#" title=""><img src="image/header.jpeg" class="img-fluid img-thumbnail"></a>
 
@@ -402,7 +394,7 @@
 
 <section class="project-work mt-5" id="about">
   <div class="container hadings text-center">
-    <p class="text-center font-weight-bold text-uppercase">More than 2,000 website create</p>
+    <h5 class="text-center font-weight-bold text-uppercase">More than 2,000 website create</h5>
    
   </div>
   <div class="container justify-content-around d-flex align-items-center text-center">
@@ -500,14 +492,14 @@
 <footer class="footer-section" id=footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-12 footer-div">
+      <div class="col-lg-3 col-md-3 col-12 footer-div">
       <div>
         <h3>About Shakhedul</h3>
         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</P>
       </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-12 footer-div">
+      <div class="col-lg-3 col-md-3 col-12 footer-div">
       <div>
         <h3>Navication Links</h3>
           <li><a href="#home" title="">home</a></li>
@@ -517,7 +509,7 @@
       </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-12 footer-div">
+      <div class="col-lg-3 col-md-3 col-12 footer-div">
       <div class="socialLink-div"> 
         <h3>Social Links</h3>
         <li class="link-icons"><a href="#" title=""><i class="fa-3x fab fa-facebook"></i></a>
@@ -530,18 +522,15 @@
       </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-12 footer-div">
+      <div class="col-lg-3 col-md-3 col-12 footer-div">
       <div class="newslatter-div">
         <h3>Newslatter</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-    <div class="container newslater-main">
-    <div class="row">
-      <div class="col-lg-12 col-12">
-        <div class="input-group mb-3">
-        <input type="text" class="form-control news-input" placeholder="Your Email">
-        <div class="input-group-append">
-      <span class="input-group-text">Subscribe</span>
-     </div>
+     <div class="newslatter-from">
+    <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required autocomplete="off">
+    </div> 
+    <div class="newslatter-from">
+    <input type="email" class="form-control" id="email" placeholder="Enter Your Password" required autocomplete="off">
+    <button class="newslatter-sub" type="submit">Subscribe</button>
     </div>
     </div>
      </div>
@@ -564,7 +553,7 @@
 <!-- *****************Footer end************** -->
 
 
-
+  <script src="navbar/app.js"></script>
   <script src="js/index.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
@@ -578,5 +567,6 @@
       time:3000
     })
 </script>
+
 </body>
 </html>
